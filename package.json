@@ -1,0 +1,50 @@
+{
+  "name": "electron-vue-vite",
+  "version": "2.0.0",
+  "main": "dist-electron/main/index.js",
+  "description": "Really simple Electron + Vue + Vite boilerplate.",
+  "author": "yukko",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build && electron-builder"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "devDependencies": {
+    "@vicons/fluent": "^0.12.0",
+    "@vicons/utils": "^0.1.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "electron": "^22.0.0",
+    "electron-builder": "^23.3.3",
+    "naive-ui": "^2.34.2",
+    "typescript": "^4.8.4",
+    "vfonts": "^0.0.3",
+    "vite": "^3.2.2",
+    "vite-plugin-electron": "^0.10.4",
+    "vite-plugin-electron-renderer": "^0.11.3",
+    "vue": "^3.2.40",
+    "vue-tsc": "^1.0.9"
+  },
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:3344"
+    }
+  },
+  "keywords": [
+    "electron",
+    "rollup",
+    "vite",
+    "vue3",
+    "vue"
+  ],
+  "dependencies": {
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "ol": "^6.6.1",
+    "uuid": "^9.0.0",
+    "vue3-openlayers": "^0.1.71"
+  }
+}
