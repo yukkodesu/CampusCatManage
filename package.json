@@ -43,7 +43,7 @@
   "dependencies": {
     "moment": "^2.29.4",
     "mysql": "^2.18.1",
-    "ol": "^6.6.1",
+    "ol": "^7.3.0",
     "uuid": "^9.0.0",
     "vue3-openlayers": "^0.1.71"
   }
